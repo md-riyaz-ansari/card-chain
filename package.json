@@ -1,0 +1,25 @@
+{
+  "name": "card-chain",
+  "version": "1.0.0",
+  "description": "A card-based sorting experiment that led to a connection with patience sorting and the Longest Increasing Subsequence.",
+  "main": "src/cardChainSort.js",
+  "scripts": {
+    "test": "node tests/correctness.js",
+    "benchmark": "node benchmarks/benchmark.js",
+    "demo": "node src/cardChainSort.js"
+  },
+  "keywords": [
+    "sorting",
+    "algorithms",
+    "javascript",
+    "lis",
+    "longest-increasing-subsequence",
+    "patience-sorting",
+    "algorithm-research"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
